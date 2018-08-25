@@ -1,0 +1,385 @@
+html{
+  color: #4A4A4A;
+  font-family: "Roboto", sans-serif;
+}
+
+header{
+  border-bottom: 3px solid rgba(0, 0, 128, 0.3);
+  box-shadow: 0px 0px 10px rgba(0, 0, 128, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background-color: white;
+  transition: border-bottom 200ms ease-in 10ms;
+}
+
+header:hover{
+  border-bottom: 3px solid rgba(0, 0, 128, 0.5);
+}
+
+.company-logo{
+  height: 1.9rem;
+  width: 10rem;
+}
+
+ul, .logo{
+  line-height: 1.6;
+  margin: auto 2rem;
+}
+
+li{
+  display: inline-block;
+  margin: 1rem 1.5rem;
+}
+
+.nav{
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #4A4A4A;
+  font-weight: normal;
+  padding: 0.5rem;
+  transition: all 50ms ease-out 10ms;
+}
+
+.nav:hover{
+  border: 1px solid rgba(74, 74, 74, 0.5);
+  box-shadow: 1px 1px 10px;
+}
+
+.icon{
+  height: 15px;
+  width: 15px;
+}
+
+.mobile{
+  display: none;
+}
+
+/* MAIN */
+#sign-up-section{
+  height: 43.5rem;
+  background-image: url('../images/39976237-doctors-wallpapers.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sign-up-cta{
+  width: 32rem;
+  height: 20rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #979797;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 10.63rem;
+  left: 6.3rem;
+  bottom: 10.63rem;
+  transition: background-color 200ms ease-in 10ms;
+}
+
+#sign-up-cta:hover{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header{
+  height: 9.5rem;
+}
+
+.cursive {
+  width: 10rem;
+  font-size: 1.6rem;
+  font-family: "Damion", cursive;
+  border-bottom: 1px solid blue;
+}
+
+#red-m{
+  color: red;
+  margin-right: -0.3rem;
+}
+
+.cursive, .striking{
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.striking{
+  font-size: 3.125rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: lighter;
+  width: 450px;
+}
+
+.email{
+  position: relative;
+  top: -1.5rem;
+}
+
+.email span{
+  width: 25rem;
+  font-size: 1.25rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.email span, .button, .header{
+  margin: 0.75rem;
+}
+
+.button{
+  font-size: 1.25rem;
+  background-color: #4A4A4A;
+  border-radius: 4px;
+  width: 25.5rem;
+  height: 4rem;
+}
+
+.email, .button, .header, #sign-up-cta{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* features */
+#features-section{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  width: 100%;
+
+}
+
+#features-section .feature{
+  width: 40rem;
+  display: flex;
+
+}
+
+.img-feature{
+  height: 10rem;
+  width: 90%;
+  margin: 2rem;
+  flex-shrink: 3;
+  color: #4A4A4A;
+}
+
+.img-feature:hover{
+  box-shadow: 1px 1px 40px;
+}
+
+#features-section .feature .center{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 3;
+}
+
+.content1{
+  width: 100%;
+  margin-left: 1.5rem;
+}
+
+.content1 h2, h3{
+  line-height: 1.2;
+  text-align: center;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.content1 h2{
+  border-bottom: 1px solid blue;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.content1 h3{
+  font-weight: lighter;
+  border-bottom: 1px solid red;
+}
+
+/*quotes*/
+#quotes-section{
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  padding: 0;
+  font-size: 1.9rem;
+  line-height: 1.1;
+  font-family: "Palatino", sans-serif;
+  font-style: italic;
+}
+
+#quotes-section .content{
+  margin: 5rem 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease-in-out 10ms;
+  border: 1px solid green
+}
+
+#quotes-section h2{
+  font-weight: bold;
+  color: black;
+
+}
+
+#quotes-section:hover .content{
+  color: green;
+  font-size: 2rem;
+}
+
+/* FOOTER */
+footer{
+  background-color: #9B9B9B9B;
+  color: white;
+  height: 3.875rem;
+}
+
+footer .content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright, .developerName{
+    margin: 1rem;
+}
+
+.developer{
+  color: white;
+  transition: all 200ms ease-in 10ms;
+}
+
+.developer:hover{
+  font-size: 1.1rem;
+  color: blue;
+}
+
+/* media queries */
+@media only screen and (max-width: 800px){
+/*sign in */
+
+ /*quote*/
+ #quotes-section .content{
+   text-align: left;
+ }
+
+ /*footer*/
+ .copyright, .location{
+     margin: 1rem;
+     font-size: .8rem;
+ }
+}
+
+
+/*mobile*/
+@media only screen and (max-width: 450px){
+
+  .email{
+    display: none;
+  }
+
+  .desktop{
+    display: none;
+  }
+
+  .mobile{
+    border: 1px solid black;
+    height: 2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .purchase{
+    border-bottom: 1px solid red;
+  }
+
+  .mobile ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .mobile ul li{
+    display: inline-block;
+    margin: 5px 20px 0;
+    height: 2rem;
+
+  }
+
+  .mobile ul li a img{
+    width: 1.3rem;
+  }
+
+  .button{
+    background-color: #9DC20B;
+    radius: 4px;
+    padding: 3px 8px;
+    height: 1.5rem;
+    width: 3.3rem;
+    font-size: 1rem;
+    color: white;
+    position: absolute;
+    top: -.4rem;
+    right: 0;
+  }
+
+  /* sign */
+  #sign-up-section{
+    width: 100%;
+    height: 20rem;;
+    position: relative;
+    top: 2.8rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #sign-up-cta{
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: flex;
+    position: static;
+  }
+
+  .cursive{
+    font-size: 2rem;
+    width: 50%
+  }
+
+  .striking{
+    font-size: 2rem;
+  }
+
+/* FEAT */
+#features-section {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#features-section .feature{
+  justify-content: center
+}
+
+.h2{
+  font-size: 0.5rem;
+
+}
+
+.content1 h3{
+  font-weight: lighter;
+  font-size: 1rem;
+}
+}
